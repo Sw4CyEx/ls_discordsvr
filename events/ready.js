@@ -8,15 +8,6 @@ module.exports = {
   once: true,
   async execute(client) {
     console.log(`Bot sudah online sebagai ${client.user.tag}!`)
-    
-    // const channelId = "1334411426122567760";
-    // const channel = client.channels.cache.get(channelId);
-    // if (channel) {
-    //   setInterval(() => {
-    //     const message = getRandomIdleMoodMessage();
-    //     channel.send(message).catch(console.error);
-    //   }, 10 * 60 * 1000);
-    // }
 
 
     // Register slash commands
